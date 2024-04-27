@@ -65,6 +65,9 @@ and try below command in terminal
 or
 > **```mvn clean install```** it will build application and create **jar** file under target directory 
 
+Skip Unit Tests
+>  **```mvn install -Dmaven.test.skip=true```**
+
 Run jar file from below path with given command
 > **```java -jar ~/path-to-sample-spring-boot-crud-example-with-h2/target/sample-spring-boot-crud-example-with-h2-1.0.0-SNAPSHOT```**
 

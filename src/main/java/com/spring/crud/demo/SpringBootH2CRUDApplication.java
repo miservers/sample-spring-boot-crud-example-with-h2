@@ -14,14 +14,15 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 import java.util.List;
 
-
+// extends SpringBootServletInitializer : to be deployable as WAR
 @Slf4j
 @SpringBootApplication
 @EnableJpaRepositories
-public class SpringBootH2CRUDApplication {
+public class SpringBootH2CRUDApplication extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootH2CRUDApplication.class, args);

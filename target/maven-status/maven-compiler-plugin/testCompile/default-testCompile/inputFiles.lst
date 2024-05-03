@@ -1,0 +1,4 @@
+/home/jadmin/miservers/spring-boot-crud-with-h2/src/test/java/com/spring/crud/demo/StudentControllerTest.java
+/home/jadmin/miservers/spring-boot-crud-with-h2/src/test/java/com/spring/crud/demo/config/error/CustomExceptionTest.java
+/home/jadmin/miservers/spring-boot-crud-with-h2/src/test/java/com/spring/crud/demo/StudentJpaTest.java
+/home/jadmin/miservers/spring-boot-crud-with-h2/src/test/java/com/spring/crud/demo/SpringBootH2CRUDApplicationTest.java

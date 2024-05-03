@@ -1,3 +1,9 @@
+
+# Skip Unit Tests
+>  **```mvn install -Dmaven.test.skip=true```**
+
+R
+
 # sample-spring-boot-crud-example-with-h2 example
 Demo project for spring-boot-crud operation using JPA with h2 in-memory database
 
